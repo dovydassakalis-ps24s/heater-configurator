@@ -1,0 +1,16 @@
+# Vietinė konfigūracija ir slaptažodžiai
+.env
+.env.*
+!.env.example
+
+# Bibliotekos
+/vendor/
+/node_modules/
+
+# Laikini ir operacinės sistemos failai
+*.log
+.DS_Store
+
+# Privatūs įmonės duomenys ir atsarginės kopijos
+/private-data/
+/backups/

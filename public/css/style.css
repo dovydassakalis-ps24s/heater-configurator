@@ -1,0 +1,70 @@
+/*bendras puslapio vaizdas*/
+body {
+    margin: 0;
+    background: #f1f5f9;
+    color: #1e293b;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/*pagrindinis turinio blokas*/
+.container {
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 32px;
+    background: white;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+input,
+button {
+    padding: 12px;
+    font: inherit;
+    border-radius: 6px;
+}
+
+input {
+    min-width: 0;
+    border: 1px solid #94a3b8;
+}
+
+button {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+/*frmos klaida ir pateiktas rezultatas*/
+.error {
+    color: #b91c1c;
+}
+
+.result {
+    margin-top: 24px;
+    padding: 16px;
+    background: #eff6ff;
+    border-radius: 6px;
+    overflow-wrap: anywhere;
+}
+
+/*mažesniuose ekranuose sumažiname tarpus - ateičiai pagerinti responsive dizainą*/
+@media (max-width: 720px) {
+    .container {
+        margin: 16px;
+        padding: 24px;
+    }
+}
